@@ -7,8 +7,7 @@ function Navbar() {
     <nav>
       <div className={`${navStyles.container} flexRowCenter`}>
         <section className={navStyles.logo}>
-          <Link to={urlMappings.home}></Link>
-          mytype
+          <Link to={urlMappings.home}>mytype</Link>
         </section>
         <section className={navStyles.menu}>account</section>
       </div>
