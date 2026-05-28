@@ -3,5 +3,10 @@ import App from "./App.tsx";
 import "./index.css";
 import "./styles/App.css";
 import "./styles/Common.css";
+import { BrowserRouter } from "react-router-dom";
 
-createRoot(document.getElementById("root")!).render(<App />);
+createRoot(document.getElementById("root")!).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+);
