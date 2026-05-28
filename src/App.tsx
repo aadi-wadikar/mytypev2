@@ -1,13 +1,9 @@
-import Navbar from "./comps/Navbar";
-
 function App() {
   return (
     <div id="app">
-      <header>
-        <Navbar></Navbar>
-      </header>
-      <main></main>
-      <footer></footer>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
+      <h1>Hello</h1>
     </div>
   );
 }
