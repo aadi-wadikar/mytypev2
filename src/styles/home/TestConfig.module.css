@@ -28,5 +28,6 @@
 }
 
 .subcardActive {
-  color: var(--textSelected);
+  /* precedense over above subcard:hover */
+  color: var(--textSelected) !important;
 }
