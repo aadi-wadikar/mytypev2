@@ -1,9 +1,11 @@
 :root {
   --bgColor: #00272c;
-  --textSelected: #ffc320;
+  --textSelected: #ffdb78;
   --textHover: #e5e5e5;
   --textIdle: #adadad;
   --textDefault: #e5e5e5;
+
+  --testConfigCardBg: #173033;
 }
 
 body {
