@@ -1,11 +1,11 @@
 nav {
   padding: 0;
-  border-bottom: 1px solid rgba(255, 0, 0, 0.275);
+  border-bottom: 1px solid red;
 }
 
 .container {
   justify-content: space-between;
-  padding: 1rem 3rem;
+  padding: 2rem 0;
 }
 
 .logo {
@@ -15,7 +15,7 @@ nav {
 
 .logo a {
   text-decoration: none;
-  color: black;
+  color: var(--textHover);
 }
 
 .logo a:hover {

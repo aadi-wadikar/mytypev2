@@ -1,0 +1,13 @@
+:root {
+  --bgColor: #00272c;
+  --textSelected: #ffc320;
+  --textHover: #e5e5e5;
+  --textIdle: #adadad;
+  --textDefault: #e5e5e5;
+}
+
+body {
+  background: var(--bgColor);
+  color: var(--textDefault);
+  padding: 0rem 7rem;
+}
