@@ -1,0 +1,32 @@
+.container {
+  font-size: 0.8rem;
+}
+
+.testConfig {
+  font-weight: 400;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background: var(--testConfigCardBg);
+  padding: 0.7rem 1.6rem;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.subcard {
+  color: var(--textIdle);
+  letter-spacing: 2px;
+}
+
+.subcard:hover {
+  color: var(--textHover);
+}
+
+.subcardActive {
+  color: var(--textSelected);
+}

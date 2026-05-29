@@ -2,6 +2,12 @@
   display: flex;
 }
 
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .flexRow {
   display: flex;
   flex-direction: row;
@@ -16,4 +22,8 @@
 .flexColumn {
   display: flex;
   flex-direction: column;
+}
+
+.cursorPointer {
+  cursor: pointer;
 }
