@@ -1,4 +1,4 @@
-import styles from "../../styles/screens/TestConfig.module.css";
+import styles from "../../styles/home/TestConfig.module.css";
 import {
   TestMode,
   TestConfigState,
